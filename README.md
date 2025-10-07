@@ -23,18 +23,18 @@ All analysis and dashboards were developed using **Power BI**, **SQL**, and **Ex
 
 ## 📂 Project Structure  
 
+```plaintext
 OLA Data Analyst Project/
 │
-├── 📊 OLA.pbix # Power BI Dashboard
-├── 🧮 OLA.sql # SQL Queries for Analysis
-├── 📘 Bookings-20000-Rows.xlsx # Dataset Sample 1
-├── 📘 Bookings-40000-Rows.xlsx # Dataset Sample 2
-├── 📘 Bookings-70000-Rows.xlsx # Dataset Sample 3
-├── 🖼️ Overall.png # Dashboard Screenshot - Overview
-├── 🖼️ Ratings.png # Dashboard Screenshot - Ratings
-├── 🖼️ Cancellation.png # Dashboard Screenshot - Cancellations
-├── 🖼️ Revenue.png # Dashboard Screenshot - Revenue
-├── 🖼️ Vehicle Type.png # Dashboard Screenshot - Vehicle Types
-└── 🎞️ Ola-Slideshub/ # Project Presentation Slides
-
+├── 📊 OLA.pbix                  # Power BI Dashboard
+├── 🧮 OLA.sql                   # SQL Queries for Analysis
+├── 📘 Bookings-20000-Rows.xlsx  # Dataset Sample 1
+├── 📘 Bookings-40000-Rows.xlsx  # Dataset Sample 2
+├── 📘 Bookings-70000-Rows.xlsx  # Dataset Sample 3
+├── 🖼️ Overall.png               # Dashboard Screenshot - Overview
+├── 🖼️ Ratings.png               # Dashboard Screenshot - Ratings
+├── 🖼️ Cancellation.png          # Dashboard Screenshot - Cancellations
+├── 🖼️ Revenue.png               # Dashboard Screenshot - Revenue
+├── 🖼️ Vehicle Type.png          # Dashboard Screenshot - Vehicle Types
+└── 🎞️ Ola-Slideshub/            # Project Presentation Slides
 د
