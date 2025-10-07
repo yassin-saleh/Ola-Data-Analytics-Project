@@ -1,12 +1,17 @@
 🚗 OLA Data Analyst Project
 
-Comprehensive data analysis and visualization of OLA ride bookings in Bengaluru, India.
-This project demonstrates advanced data analytics, SQL querying, and Power BI dashboarding skills, based on a large-scale simulated dataset of 100,000 bookings covering one operational month.
+Project Category: Data Analytics & Visualization
+Dataset: Synthetic 1,00,000 (1 Lac) Bookings for Bengaluru City
 
-🧭 Project Overview
+🧭 Overview
 
-The OLA Data Analyst Project replicates the end-to-end workflow of a professional data analyst in the transportation industry.
-It focuses on understanding booking trends, customer behavior, operational performance, and cancellation patterns across various vehicle categories.
+This project focuses on analyzing OLA ride-booking data for Bengaluru, simulating one month of ride activity.
+The data reflects realistic booking patterns, customer and driver behavior, vehicle performance, and revenue metrics.
 
-The dataset includes diverse fields such as booking details, customer and driver ratings, cancellation reasons, and fare distribution.
-Analyses were performed using SQL for data querying and Power BI for visualization and storytelling.
+The project demonstrates the full data analytics lifecycle:
+
+Data understanding and preparation
+
+SQL-based data analysis and querying
+
+Power BI visualization and insights building
