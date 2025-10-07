@@ -1,8 +1,5 @@
 # 🚗 OLA Data Analyst Project  
 **Project Category:** Advanced Data Analytics  
-📍 *Location: Bengaluru, India*  
-
-![OLA Logo](https://upload.wikimedia.org/wikipedia/commons/2/2d/OLA_Cabs_logo.svg)
 
 ---
 
