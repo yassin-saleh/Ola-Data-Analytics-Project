@@ -1,5 +1,25 @@
-# 🚗 OLA Data Analyst Project **Project Category:** Advanced Data Analytics --- ## 🧠 Overview The **OLA Data Analyst Project** is a complete end-to-end data analysis initiative that focuses on understanding and optimizing ride-booking activities for **OLA** in **Bengaluru, India**. The project replicates a real-world analytics scenario by analyzing data for **100,000 bookings** collected over one month. It aims to provide key insights into: - Ride booking trends - Revenue distribution - Cancellation behavior - Customer satisfaction and rating performance - Operational efficiency of vehicle types All analysis and dashboards were developed using **Power BI**, **SQL**, and **Excel**. --- ## 📂 Project Structure
-plaintext
+🚗 OLA Data Analyst Project
+📊 Project Category: Advanced Data Analytics
+🧠 Overview
+
+The OLA Data Analyst Project is a complete end-to-end data analysis initiative focused on understanding and optimizing ride-booking operations for OLA in Bengaluru, India.
+
+This project simulates a real-world analytics use case by analyzing 100,000 ride bookings collected over one month.
+It aims to deliver actionable insights related to:
+
+📈 Ride booking trends
+
+💰 Revenue distribution
+
+❌ Cancellation behavior
+
+⭐ Customer satisfaction & rating performance
+
+🚗 Operational efficiency of vehicle types
+
+All analysis and dashboards were built using Power BI, SQL, and Excel.
+
+📂 Project Structure
 OLA Data Analyst Project/
 │
 ├── 📊 OLA.pbix                  # Power BI Dashboard
