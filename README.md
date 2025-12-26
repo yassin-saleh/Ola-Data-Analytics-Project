@@ -58,7 +58,7 @@ Customer_Ratings	Rating (1–5)
 🧭 Project Workflow
 1️⃣ Data Cleaning & Preparation
 
-Merged multiple datasets into one master file
+Merged multiple datasets into a master file
 
 Standardized column names and formats
 
@@ -104,7 +104,7 @@ Customer satisfaction dropped on weekends due to longer wait times
 
 Bike rides achieved the highest ratings and fastest turnaround
 
-Overall cancellation rate: 11.2%, mostly from short-distance trips
+Overall cancellation rate: 11.2%, mainly from short-distance trips
 
 ⚙️ Tools & Technologies
 Tool	Purpose
