@@ -34,96 +34,97 @@ OLA Data Analyst Project/
 ├── 🖼️ Vehicle Type.png          # Dashboard Screenshot - Vehicle Types
 └── 🎞️ Ola-Slideshub/            # Project Presentation Slides
 
+📑 Dataset Description
+Column	Description
+Date	Booking date (within one month)
+Time	Booking time (HH:MM format)
+Booking_ID	Unique 10-digit ID (starts with CNR)
+Booking_Status	Success / Cancelled by Customer / Cancelled by Driver / Incomplete
+Customer_ID	Unique customer identifier
+Vehicle_Type	Auto, Mini, Prime Sedan, Prime SUV, Bike, eBike
+Pickup_Location	Location name (Bengaluru areas)
+Drop_Location	Destination location
+V_TAT	Vehicle arrival time (minutes)
+C_TAT	Customer wait time (minutes)
+Cancelled_Rides_by_Customer	Boolean flag
+Cancelled_Rides_by_Driver	Boolean flag
+Incomplete_Rides	Boolean flag
+Revenue	Ride fare (INR)
+Driver_Ratings	Rating (1–5)
+Customer_Ratings	Rating (1–5)
+🧭 Project Workflow
+1️⃣ Data Cleaning & Preparation
 
----
+Combined multiple datasets into one master file
 
-## 📑 Dataset Description  
+Standardized column names and formats
 
-| **Column** | **Description** |
-|-------------|-----------------|
-| `Date` | Booking date (within one month) |
-| `Time` | Booking time in HH:MM format |
-| `Booking_ID` | Unique 10-digit ID (starts with CNR) |
-| `Booking_Status` | Status of ride: *Success*, *Cancelled by Customer*, *Cancelled by Driver*, or *Incomplete* |
-| `Customer_ID` | Unique customer identifier |
-| `Vehicle_Type` | Auto, Prime Sedan, Mini, Bike, eBike, Prime SUV, etc. |
-| `Pickup_Location` | Location name (randomly selected from 50 Bengaluru areas) |
-| `Drop_Location` | Destination location |
-| `V_TAT` | Average vehicle time to arrive (in minutes) |
-| `C_TAT` | Average customer wait time (in minutes) |
-| `Cancelled_Rides_by_Customer` | Boolean indicator |
-| `Cancelled_Rides_by_Driver` | Boolean indicator |
-| `Incomplete_Rides` | Boolean indicator |
-| `Revenue` | Ride revenue (in INR) |
-| `Driver_Ratings` | Numeric rating from 1–5 |
-| `Customer_Ratings` | Numeric rating from 1–5 |
+Removed missing and duplicate records
 
----
+2️⃣ Data Modeling
 
-## 🧭 Project Workflow  
+Designed relational schema
 
-### 1️⃣ Data Cleaning & Preparation  
-- Combined multiple datasets into one master file.  
-- Standardized column names and formats.  
-- Removed missing or duplicate records.  
+Built calculated measures and KPIs
 
-### 2️⃣ Data Modeling  
-- Designed relational schema to support analytics.  
-- Used SQL joins to connect booking and customer tables.  
-- Established measures for ride counts, cancellations, and average ratings.  
+Used SQL joins for analysis
 
-### 3️⃣ Data Analysis  
-Conducted analysis on:
-- Revenue by vehicle type  
-- Customer vs. driver cancellations  
-- Average trip ratings  
-- Peak booking hours and daily trends  
+3️⃣ Data Analysis
 
-### 4️⃣ Dashboard Design (Power BI)  
-Developed multiple visuals to represent:
-- 🚗 Vehicle performance comparison  
-- 💰 Revenue trends by category  
-- 🔁 Cancellation breakdown  
-- ⭐ Ratings distribution and averages  
-- 📅 Daily ride volume and performance metrics  
+Revenue by vehicle type
 
----
+Customer vs driver cancellation trends
 
-## 💡 Key Insights  
+Rating analysis
 
-1. **Prime Sedan** and **Mini** contributed the highest share of total revenue.  
-2. **Driver cancellations** were more frequent during peak traffic hours (8–10 AM & 6–8 PM).  
-3. **Customer satisfaction** dropped slightly on weekends due to longer arrival times.  
-4. **Bike rides** had the best average rating and fastest turnaround time.  
-5. The **overall cancellation rate** stood at 11.2%, mostly concentrated in short-distance trips.
+Peak booking hours & daily demand
 
----
+4️⃣ Dashboard Development (Power BI)
 
-## ⚙️ Tools & Technologies  
+🚗 Vehicle performance comparison
 
-| Tool | Purpose |
-|------|----------|
-| 🧩 **Power BI** | Data visualization and dashboarding |
-| 🗃️ **SQL** | Querying, filtering, and aggregating data |
-| 📈 **Excel** | Data cleaning and preparation |
-| 🧠 **Data Modeling** | Relationship and measure creation |
+💰 Revenue insights
 
----
+🔁 Cancellation analysis
 
-## 📚 Future Improvements  
-- Integrate live data feeds through OLA API (if accessible).  
-- Implement machine learning models to predict cancellations.  
-- Expand analysis to multi-city performance comparison.  
+⭐ Rating distribution
 
----
+📅 Daily booking trends
 
-## 🏁 Conclusion  
-The **OLA Data Analyst Project** demonstrates how data can empower decision-making in a real-world transportation business.  
-By combining SQL, Power BI, and data modeling, the project offers actionable insights that can help improve customer satisfaction, operational efficiency, and revenue performance.
+💡 Key Insights
 
----
+Prime Sedan and Mini generated the highest total revenue
 
-## 🌐 Author  
-👤 **Yassin Saleh**  
-📧 [Contact via GitHub](https://github.com/yassin-saleh)  
-💼 Data Analyst | SQL | Power BI | Excel  
+Driver cancellations peaked during rush hours (8–10 AM & 6–8 PM)
+
+Customer satisfaction dropped on weekends due to longer wait times
+
+Bike rides achieved the highest ratings and fastest turnaround
+
+Overall cancellation rate: 11.2%, mainly from short-distance trips
+
+⚙️ Tools & Technologies
+Tool	Purpose
+🧩 Power BI	Dashboarding & visualization
+🗃️ SQL	Querying & transformations
+📈 Excel	Data cleaning & preparation
+🧠 Data Modeling	KPIs & relationships
+📚 Future Improvements
+
+Integrate live data via OLA APIs
+
+Build ML models to predict ride cancellations
+
+Expand analysis to multi-city comparisons
+
+🏁 Conclusion
+
+The OLA Data Analyst Project demonstrates how data-driven insights can improve operational efficiency and customer experience in ride-hailing platforms.
+By combining SQL, Power BI, and structured data modeling, the project delivers actionable business intelligence.
+
+🌐 Author
+
+Yassin Saleh
+🔗 GitHub: https://github.com/yassin-saleh
+
+💼 Data Analyst | SQL | Power BI | Excel
